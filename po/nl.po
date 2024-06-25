@@ -1,0 +1,89 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lock-message.pybodensee package.
+#
+# Heimen Stoffels <vistausss@fastmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: lock-message.pybodensee\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-24 21:03+0000\n"
+"PO-Revision-Date: 2024-06-25 11:48+0200\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch <>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#: ../qml/AboutPage.qml:10
+msgid "Information"
+msgstr "Informatie"
+
+#: ../qml/AboutPage.qml:79
+msgid "Add a message to the lockscreen"
+msgstr "Laat een bericht achter op het vergrendelscherm"
+
+#: ../qml/AboutPage.qml:86
+msgid "Website"
+msgstr "Website"
+
+#: ../qml/AboutPage.qml:95
+msgid "License"
+msgstr "Licentie"
+
+#: ../qml/AboutPage.qml:104
+msgid "Author"
+msgstr "Maker"
+
+#: ../qml/Main.qml:80
+msgid "Info"
+msgstr "Informatie"
+
+#: ../qml/Main.qml:139
+msgid "Click to add locked sceen message"
+msgstr "Druk om het bericht toe te voegen"
+
+#: ../qml/Main.qml:158
+msgid ""
+"- If your custom message doesn't show up on the locked screen, then its "
+"probably hidden in usermetrics queu."
+msgstr ""
+"- Als je bericht niet wordt getoond, dan staat het waarschijnlijk nog in de"
+" wachtrij."
+
+#: ../qml/Main.qml:159
+msgid ""
+"- You can double tap on text inside the circle untill you see your lock "
+"message."
+msgstr ""
+"- Dubbeltik net zolang op de tekst binnen de cirkel totdat je bericht"
+" verschijnt."
+
+#: ../qml/Main.qml:160
+msgid ""
+"- While double tapping, please only tap on the text inside the lock screen "
+"circle, as double tap on random area might not work."
+msgstr ""
+"- Let op: dubbeltik alléén op de tekst binnen de cirkel en niet erbuiten."
+
+#: ../qml/Main.qml:161
+msgid ""
+"- Please contact me with any issues before leaving negative review and I "
+"will try to fix them. Help me to improve this important feature."
+msgstr ""
+"- Als je problemen ondervindt, neem dan contact met me op alvorens een"
+" beoordeling achter te laten. Ik weet zeker dat we ze samen kunnen oplossen."
+
+#: ../qml/Main.qml:250
+msgid "Touch to write"
+msgstr "Druk hier om te schrijven"
+
+#: ../qml/Main.qml:279
+msgid "Locked screen message was updated"
+msgstr "Het vergrendelschermbericht is bijgewerkt"
+
+#: lock-message.desktop.in.h:1
+msgid "Lock Message"
+msgstr "Vergrendelschermbericht"
