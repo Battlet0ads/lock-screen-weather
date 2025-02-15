@@ -1,15 +1,17 @@
 {
-    "name": "lock-message.pybodensee",
-    "description": "Add your message to the lockscreen",
-    "architecture": "@CLICK_ARCH@",
-    "title": "Lock Message",
-    "hooks": {
-        "lock-message": {
-            "apparmor": "lock-message.apparmor",
-            "desktop":  "lock-message.desktop"
-        }
-    },
-    "version": "0.1.1",
-    "maintainer": "Faisal Shahzad <pybodensee@gmail.com>",
-    "framework" : "@CLICK_FRAMEWORK@"
+  "name": "lock-message-weather", // 
+  "version": "0.2.0", // 
+  "description": "Displays weather information on the lockscreen.", // 
+  "architecture": "all",
+  "framework": "ubuntu-sdk-16.04", // Или другая версия, если у вас другая
+  "maintainer": "Battlet0ads <mmskrope@gmail.com>",
+  "permissions": [
+    "network" // Разрешение на доступ к сети
+  ],
+  "hooks": {
+    "lock-message-weather": { // 
+      "apparmor": "click_apparmor",
+      "content": "lock-message-weather" // 
+    }
+  }
 }
