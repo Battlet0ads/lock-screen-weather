@@ -154,8 +154,8 @@ MainView {
 
     function updateWeather() {
         // Замените на реальный запрос к API погоды
-        var apiKey = "YOUR_API_KEY"; // Замените на свой API ключ
-        var city = "London"; // Замените на желаемый город
+        var apiKey = "e912bd31d0a475dc1b79415a946835b7"; // Замените на свой API ключ
+        var city = "Minsk"; // Замените на желаемый город
         var apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=metric";
 
         var xhr = new XMLHttpRequest();
