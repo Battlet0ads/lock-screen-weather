@@ -1,7 +1,8 @@
 [Desktop Entry]
-_Name=Lock Message
+_Name=Weather on Lockscreen //
 Exec=qmlscene %U qml/Main.qml
-Icon=assets/lock-message.png
+Icon=assets/lock-message.png // Убедитесь, что иконка есть
 Terminal=false
 Type=Application
 X-Lomiri-Touch=true
+Comment=Displays weather information on the lockscreen // Обновленное описание
