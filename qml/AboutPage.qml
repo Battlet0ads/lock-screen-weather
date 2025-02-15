@@ -15,7 +15,6 @@ Page {
                 iconName: "back"
                 onTriggered: {
                     a_p_layout.removePages(about_page)
-                    columnAdded = false
                 }
             }
         ]
@@ -56,7 +55,7 @@ Page {
                     anchors.centerIn: parent
                     source: Image {
                         id: icon_image
-                        source: "../assets/lock-message.png"
+                        source: "../assets/lock-message.png" // Не забудьте обновить иконку
                     }
                     radius: "medium"
                     aspect: UbuntuShape.DropShadow
@@ -66,7 +65,7 @@ Page {
             Label {
                 id: name
 
-                text: "Lock Message\n" + version
+                text: "Weather on Lockscreen\n" + version // Обновленное название и версия
                 anchors.horizontalCenter: parent.horizontalCenter
                 textSize: Label.Large
                 horizontalAlignment:  Text.AlignHCenter
@@ -76,7 +75,7 @@ Page {
                 id: description_text
 
                 width: parent.width - units.gu(4)
-                text: i18n.tr("Add a message to the lockscreen")
+                text: i18n.tr("Displays weather information on the lockscreen") // Обновленное описание
                 anchors.horizontalCenter: parent.horizontalCenter
                 wrapMode: Text.WordWrap
                 horizontalAlignment:  Text.AlignHCenter
@@ -87,7 +86,8 @@ Page {
 
                     ProgressionSlot {}
                 }
-                onClicked: {Qt.openUrlExternally('https://github.com/pybodensee/lock-message')}
+                onClicked: {Qt.openUrlExternally('https://github.com/pybodensee/lock-message')} //Обновить ссылку
+
             }
 
             ListItem {
@@ -103,7 +103,7 @@ Page {
                 ListItemLayout {
                     title.text: i18n.tr("Author")
 
-                    Label { text: "Michał Prędotka (Original) \nFaisal Shahzad (Maintainer) " }
+                    Label { text: Battlet0ads(fork by) " } //Возможно, стоит указать себя как нового мейнтейнера
 
                     ProgressionSlot {}
                 }
